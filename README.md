@@ -42,6 +42,10 @@
 
 [[Download a PDF version](https://github.com/rasbt/pattern_classification/raw/master/PDFs/supervised_learning_flowchart.pdf)] of this flowchart.
 
+* [Machine learning overview](http://usblogs.pwc.com/emerging-technology/a-look-at-machine-learning-infographic/)
+* [Machine learning methods](http://usblogs.pwc.com/emerging-technology/machine-learning-methods-infographic/)
+* [Machine learning evolution](http://usblogs.pwc.com/emerging-technology/machine-learning-evolution-infographic/)
+
 <br>
 <br>
 <br>
