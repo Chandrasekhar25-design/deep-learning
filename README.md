@@ -55,17 +55,11 @@
 ### Resoucrces
 
 - [A collection of tutorials and examples for solving and understanding machine learning and pattern classification tasks](https://github.com/rasbt/pattern_classification)
-
+- [Deep Learning papers reading roadmap for anyone who are eager to learn this amazing tech](https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap)
 - Copy-and-paste ready LaTex equations [[Markdown](./resources/latex_equations.md)]
-
 - Open-source datasets [[Markdown](./resources/dataset_collections.md)]
-
 - Free Machine Learning eBooks [[Markdown](./resources/machine_learning_ebooks.md)]
-
 - Terms in data science defined in less than 50 words [[Markdown](./resources/data_glossary.md)]
-
 - Useful libraries for data science in Python [[Markdown](./resources/python_data_libraries.md)]
-
 - General Tips and Advices [[Markdown](./resources/general_tips_and_advices.md)]
-
 - A matrix cheatsheat for Python, R, Julia, and MATLAB  [[HTML](http://sebastianraschka.com/Articles/2014_matrix_cheatsheet_table.html)]
