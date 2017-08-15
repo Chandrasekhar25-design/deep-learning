@@ -11,32 +11,19 @@
 
 
 ## Machine Learning Projects
-
 - [Anomaly Detection](anomaly-detection/README.md)
-
-- [Fourier Transforms](Fourier-transforms/README.md)
-
+- [Fourier Transforms](fourier-transforms/README.md)
 - [Constructing Classifier](constructing-classifier/README.md)
-
 - [Speech Recognition](speech-recognition/README.md)
-
 - [Dissecting Time Series and Sequential Data](dissecting-time-series-sequential-data/README.md)
 
 
 ## Useful examples
-
 - [lawlite19/MachineLearning_Python](https://github.com/lawlite19/MachineLearning_Python)
 - [apachecn/MachineLearning](https://github.com/apachecn/MachineLearning)
-
 - [Implementation of Reinforcement Learning Algorithms. Python, OpenAI Gym, Tensorflow](https://github.com/dennybritz/reinforcement-learning)
-
 - [lawlite19/DeepLearning_Python](https://github.com/lawlite19/DeepLearning_Python)
 
-<br>
-<br>
-<br>
-<hr>
-<br>
 
 ## Resoucrces
 
