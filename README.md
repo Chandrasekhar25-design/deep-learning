@@ -15,8 +15,8 @@
 - [Fourier Transforms](fourier-transforms/README.md)
 - [Constructing Classifier](constructing-classifier/README.md)
 - [Speech Recognition](speech-recognition/README.md)
-- [Dissecting Time Series and Sequential Data](dissecting-time-series-sequential-data/README.md)
-
+- [Time Series and Sequential Data](time-series-sequential-data/README.md)
+- [Keras Deep Learning](keras-deep-learning/README.md)
 
 ## Useful examples
 - [lawlite19/MachineLearning_Python](https://github.com/lawlite19/MachineLearning_Python)
