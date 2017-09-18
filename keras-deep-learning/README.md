@@ -153,11 +153,29 @@ Let's tie it all together into a complete code example: [Keras first network](ke
 
 Running this example, you should see a message for each of the 150 epochs printing the loss and accuracy for each, followed by the final evaluation of the trained model on the training dataset or the predictions for each input pattern.
 
+## Long Short-Term Memory Network
+
+The Long Short-Term Memory network, or LSTM network, is a recurrent neural network that is trained using Backpropagation Through Time and overcomes the vanishing gradient problem.
+
+As such, it can be used to create large recurrent networks that in turn can be used to address difficult sequence problems in machine learning and achieve state-of-the-art results. 
+
+Instead of neurons, LSTM networks have memory blocks that are connected through layers.
+
+A block has components that make it smarter than a classical neuron and a memory for recent sequences. A block contains gates that manage the block's state and output. A block operates upon an input sequence and each gate within a block uses the sigmoid activation units to control whether they are triggered or not, making the change of state and addition of information flowing through the block conditional.
+
+There are three types of gates within a unit:
+- **Forget Gate**: conditionally decides what information to throw away from the block.
+- **Input Gate**: conditionally decides which values from the input to update the memory state.
+- **Output Gate**: conditionally decides what to output based on input and the memory of the block.
+
+[LSTM for Regression with Time Steps](time_series_lstm_cnn.py)
+
+- More details [here](http://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/)
 
 ## More examples
 
 - [Keras CNN Exmaple](keras_cnn_example.py)
-- [Keras Tutorial: The Ultimate Beginner's Guide to Deep Learning in Python](Keras Tutorial: The Ultimate Beginner?s Guide to Deep Learning in Python)
+- [Keras Tutorial: The Ultimate Beginner's Guide to Deep Learning in Python](https://elitedatascience.com/keras-tutorial-deep-learning-in-python)
 - [example models in Keras](https://github.com/fchollet/keras/tree/master/examples)
 - [Stanford's computer vision class](http://cs231n.github.io/convolutional-networks/)
 
@@ -165,4 +183,4 @@ Running this example, you should see a message for each of the 150 epochs printi
 
 ## Reference
 
-- [Develop Your First Neural Network in Python With Keras Step-By-Step](Develop Your First Neural Network in Python With Keras Step-By-Step)
+- [Develop Your First Neural Network in Python With Keras Step-By-Step](http://machinelearningmastery.com/tutorial-first-neural-network-python-keras/)
