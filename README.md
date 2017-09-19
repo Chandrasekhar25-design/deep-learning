@@ -17,6 +17,8 @@
 - [Speech Recognition](speech-recognition/README.md)
 - [Time Series and Sequential Data](time-series-sequential-data/README.md)
 - [Keras Deep Learning](keras-deep-learning/README.md)
+- [RNN](rnn/understanding_LSTM_networks.md)
+- [HMM](hmms/README.md)
 
 ## Useful examples
 - [lawlite19/MachineLearning_Python](https://github.com/lawlite19/MachineLearning_Python)

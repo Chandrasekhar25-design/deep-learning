@@ -1,5 +1,7 @@
 
 
+# HMM
+
 ## pattern recognition with hmm
 
 - Patterns: recognizeable, obvious entities
@@ -30,3 +32,8 @@ Applications:
 - Window based
 
 Extract fixed length windows from training and test time series by moving one or more symbols at a time. The anomaly score for each test window is calculated using its similarity to the training windows. This similarity function can be distance measures like Euclidean, Manhattan or Correlation values, etc.
+
+## Examples
+
+- [hmmlearn-time-series.ipynb](hmmlearn-time-series.ipynb) 
+- [single_speaker_word_recognition_with_hmm.ipynb](single_speaker_word_recognition_with_hmm.ipynb)
