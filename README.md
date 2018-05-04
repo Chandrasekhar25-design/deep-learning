@@ -1,17 +1,62 @@
 
 
-# Deep Learning Projects
+# Deep Learning With PyTorch and TensorFlow
 
 
-**TensorFlow v1.4**  is recommended. Added many new examples (kmeans, random forest, multi-gpu training, layers api, estimator api, dataset api ...).
+## Basics
 
-
-## Tutorial index
-
-### 0 - Basics
 - [Deep learning core concepts](resources/deep-learning-core-concepts.md).
 - [Deep learning training](resources/deep-learning-training.md).
 - [Understanding LSTM networks](resources/understanding_LSTM_networks.md)
+- [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) shows a bunch of real life examples
+- [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/) for an overview on word embeddings and RNNs for NLP
+- [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) is about LSTMs work specifically, but also informative about RNNs in general
+- [Calculus on **Computational Graphs**](http://colah.github.io/posts/2015-08-Backprop/)
+
+
+## Deep Learning with PyTorch
+
+**PyTorch 0.3** is recommended. 
+
+### 1 - PyTorch basics
+
+* [Offical PyTorch tutorials](http://pytorch.org/tutorials/) for more tutorials (some of these tutorials are included there)
+* [Deep Learning with PyTorch: A 60-minute Blitz](http://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) to get started with PyTorch in general
+* [PyTorch Basics](tutorials/01-basics/pytorch_basics/main.py)
+* [Linear Regression](tutorials/01-basics/linear_regression/main.py#L24-L31)
+* [Logistic Regression](tutorials/01-basics/logistic_regression/main.py#L35-L42)
+* [Feedforward Neural Network](tutorials/01-basics/feedforward_neural_network/main.py#L36-L47)
+* [Introduction to PyTorch for former Torchies](https://github.com/pytorch/tutorials/blob/master/Introduction%20to%20PyTorch%20for%20former%20Torchies.ipynb) if you are a former Lua Torch user
+
+### 2 - Intermediate
+* [Convolutional Neural Network](tutorials/02-intermediate/convolutional_neural_network/main.py#L33-L53)
+* [Deep Residual Network](tutorials/02-intermediate/deep_residual_network/main.py#L67-L103)
+* [Recurrent Neural Network](tutorials/02-intermediate/recurrent_neural_network/main.py#L38-L56)
+* [Bidirectional Recurrent Neural Network](tutorials/02-intermediate/bidirectional_recurrent_neural_network/main.py#L38-L57)
+* [Language Model (RNN-LM)](tutorials/02-intermediate/language_model/main.py#L28-L53)
+* [Generative Adversarial Network](tutorials/02-intermediate/generative_adversarial_network/main.py#L34-L50)
+
+### 3 - Advanced
+* [Image Captioning (CNN-RNN)](tutorials/03-advanced/image_captioning)
+* [Deep Convolutional GAN (DCGAN)](tutorials/03-advanced/deep_convolutional_gan)
+* [Variational Auto-Encoder](tutorials/03-advanced/variational_auto_encoder)
+* [Neural Style Transfer](tutorials/03-advanced/neural_style_transfer)
+
+### 4 - Utilities
+* [TensorBoard in PyTorch](tutorials/04-utils/tensorboard)
+
+
+### More Examples
+
+- [spro/practical-pytorch](https://github.com/spro/practical-pytorch)
+- [jcjohnson's PyTorch examples](https://github.com/jcjohnson/pytorch-examples) for a more in depth overview (including custom modules and autograd functions)
+- [chenyuntc/pytorch-book](https://github.com/chenyuntc/pytorch-book)
+
+
+
+## Deep Learning with TensorFlow
+
+**TensorFlow v1.4**  is recommended. Added many new examples (kmeans, random forest, multi-gpu training, layers api, estimator api, dataset api ...).
 
 ### 1 - Introduction
 - **Hello World** ([notebook](notebooks/1_Introduction/helloworld.ipynb)) ([code](examples/1_Introduction/helloworld.py)). Very simple example to learn how to print "hello world" using TensorFlow.
@@ -55,50 +100,7 @@
 - **Basic Operations on multi-GPU** ([notebook](notebooks/6_MultiGPU/multigpu_basics.ipynb)) ([code](examples/5_MultiGPU/multigpu_basics.py)). A simple example to introduce multi-GPU in TensorFlow.
 - **Train a Neural Network on multi-GPU** ([notebook](notebooks/6_MultiGPU/multigpu_cnn.ipynb)) ([code](examples/5_MultiGPU/multigpu_cnn.py)). A clear and simple TensorFlow implementation to train a convolutional neural network on multiple GPUs.
 
-
-## Deep Learning with Keras
-
-Materials in this repository are for educational purposes.
-Source code is written in Python 3.6+ & Keras ver 2.0+ (Using TensorFlow backend - For advanced topics, basic understanding of TensorFlow mechanics is necessary)
-
-## [1. MLP](deep-learning-with-keras/1_MLP)
-
-- Basics of MLP
-- Advanced MLP - 1
-- Advanced MLP - 2
-
-## [2. Convolutional Neural Networks](deep-learning-with-keras/2_CNN)
-
-- Basic CNN
-- Advanced CNN - 1
-- Advanced CNN - 2
-- Using pretrained models
-
-## [3. Recurrent Neural Networks](deep-learning-with-keras/3_RNN)
-
-- Basic RNN
-- Advanced RNN - 1
-- Advanced RNN - 2
-- Advanced RNN - 3
-
-## [4. Unsupervised Learning](deep-learning-with-keras/4_Unsupervised_Learning)
-
-- Autoencoders
- 
-## [5. Examples](deep-learning-with-keras/5_Examples)
-
-### 1) Digit Recognition with RNN
-  - Simple RNN model
-  - Stacked RNN model
-  - Bidirectional RNN model
-  - Simple LSTM model
-  - Stacked LSTM model
-  - Bidirectional LSTM model
-  - Simple GRU model
-  - Stacked GRU model
-  - Bidirectional GRU model
-
-## More Examples
+### More Examples
 
 - [aymericdamien/TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
 - [buomsoo-kim/Easy-deep-learning-with-Keras](https://github.com/buomsoo-kim/Easy-deep-learning-with-Keras)
